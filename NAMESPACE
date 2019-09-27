@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+import("polynom", "orthopolynom", "Hmisc")
+importFrom("grDevices", "rgb")
+importFrom("graphics", "Axis", "abline", "hist", "lines", "par", "polygon")
+importFrom("stats", "approxfun", "cov", "integrate", "pchisq", "pnorm", "quantile", "uniroot")
+
