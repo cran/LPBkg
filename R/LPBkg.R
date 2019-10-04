@@ -67,7 +67,7 @@ dhatL2<-function(data,g, M=6, Mmax=NULL,
   G<-function(y)integrate(g,lower=range[1],upper=y)$value
   G<-Vectorize(G)
   u<-G(data)
-  xx<-seq(range[1],range[2],by=0.05)
+  xx<-seq(range[1],range[2],by=0.01)
   uu<-G(xx)
   n<-length(u)
   S<- as.matrix(Legj(u=u,m=M))
